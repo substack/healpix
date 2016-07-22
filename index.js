@@ -19,3 +19,8 @@ function ang2xy (out, phi, theta) { // longitude, latitude radians
   out[1] = y
   return out
 }
+
+exports.xy2ang = xy2ang
+function xy2ang (out, x, y) {
+  
+}
