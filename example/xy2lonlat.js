@@ -1,4 +1,4 @@
-var healpix = require('../')
+var healpix = require('../')(4,3)
 var PI = Math.PI
 var x = Number(process.argv[2])
 var y = Number(process.argv[3])
