@@ -1,8 +1,8 @@
 #!/bin/bash
 
 PI=3.141592653589793
-LAT=64.8
-LON=-148
+LON=$1
+LAT=$2
 THETA=`echo "scale=8;$LAT/180*$PI"|bc`
 PHI=`echo "scale=8;$LON/180*$PI"|bc`
 
