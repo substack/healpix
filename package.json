@@ -1,0 +1,34 @@
+{
+  "name": "healpix",
+  "version": "1.0.0",
+  "description": "convert between lonlat and HEALPix coordinates",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "projection",
+    "equal area",
+    "cube mapping",
+    "earth",
+    "geo",
+    "gis"
+  ],
+  "author": "substack",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/substack/healpix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/substack/healpix/issues"
+  },
+  "homepage": "https://github.com/substack/healpix#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
