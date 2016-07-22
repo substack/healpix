@@ -4,7 +4,7 @@ var healpix = require('../')
 var PI = Math.PI
 
 // expected values based on the image from
-// https://trac.osgeo.org/proj/wiki/proj%3Drhealpix
+// https://trac.osgeo.org/proj/wiki/proj%3Dhealpix
 
 test('grid positions', function (t) {
   var thetax = Math.asin(2/3)*180/PI
